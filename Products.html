@@ -49,7 +49,7 @@
   
     <div class="container"> 
         <div class="row">
-            <ul class="nav nav-tabs">
+            <ul class="nav nav-tabs"><!--this if for tabs -->
                 <li class="nav-item">
                   <a class="nav-link active" href="#peter"
                     role="tab" data-toggle="tab">Peter Pan, CEO</a>
@@ -87,7 +87,74 @@
                     <h3>Alberto Somayya, Exec. Chef<small>Chef Officer</small></h3>
                     <p class="d-none d-sm-block">Alberto Seveso is a graphic artist, born in Milan and now working in Bristol, UK as a freelance artist. His passion for graphic art started in the early 90's when he became fascinated with the skate decks and album covers for metal bands</p>
                 </div> 
+            </div><!--the tab end here-->
+            <br><br><br>
+            <!--Now we are doing acordion-->
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" role="tab" id="peterhead">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#peter">
+                            Peter Pan <small>Chief Epicurious Officer</small>
+                            </a>
+                        </h3>
+                    </div>
+                    <div role="tabpanel" class="collapse show" id="peter" data-parent="#accordion">
+                        <div class="card-body"> 
+                            <p class="d-none d-sm-block">Our CEO, Peter Pan is a young boy who lives on the island of Neverland. He has a pixie called Tinker Bell who is his best friend and sidekick. He is the current leader of the Lost Boys. He spends most days going on adventures and battling the notorious pirate Captain Hook</p>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="card">
+                    <div class="card-header" role="tab" id="dannyhead">
+                        <h3 class="mb-0">
+                        <a data-toggle="collapse" data-target="#danny">
+                            Danny Pan<small>Managing Officer</small>
+                        </a>
+                        </h3>
+                    </div>
+                    <div role="tabpanel" class="collapse" id="danny" data-parent="#accordion"> 
+                        <div class="card-body"> 
+                            <p class="d-none d-sm-block">Danny is a writer, comedian, and content creator. ... He also hosts Everything Iconic with Danny Pellegrino, a podcast available on iTunes and Spotify. His work has been featured in Buzzfeed, Cosmo, US Weekly, World of Wonder, E!, People, Huffington Post, Comedy Central, and W Magazine. He lives in Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="agumbehead">
+                        <h3 class="mb-0">
+                        <a data-toggle="collapse" data-target="#agumbe">
+                            Agumbe Tang, CTO<small>Research Officer</small>
+                        </a>
+                        </h3>
+                    </div>        
+                    <div role="tabpanel" class="collapse " id="agumbe" data-parent="#accordion">
+                        <div class="card-body"> 
+                            <p class="d-none d-sm-block">The Agumbe Rainforest Research Station was established to conduct experiments to observe the behavior of recycling water. The lush and thick foliage has made it convenient for the King Cobra to seek refuge, Agumbe is known as the capital of the King Cobra</p>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="albertohead">
+                        <h3 class="mb-0">
+                        <a data-toggle="collapse" data-target="#alberto">
+                            Alberto Somayya, Exec. Chef<small>Chef Officer</small>
+                        </a>
+                          </h3>
+                    </div> 
+                    <div role="tabpanel" class="collapse" id="alberto" data-parent="#accordion">
+                        <div class="card-body"> 
+                            <p class="d-none d-sm-block">Alberto Seveso is a graphic artist, born in Milan and now working in Bristol, UK as a freelance artist. His passion for graphic art started in the early 90's when he became fascinated with the skate decks and album covers for metal bands</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <br><br><br>
+
+            </div>
+
         </div>
     </div>
 
